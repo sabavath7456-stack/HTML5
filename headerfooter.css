@@ -1,0 +1,24 @@
+/* 1. HEADER: Puts the two inner divs side-by-side */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+/* 2. FOOTER: Puts the two inner divs side-by-side */
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e0e0e0; /* Slightly different gray to tell it apart */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* 3. CONTAINERS: Centers images inside their divs */
+.container, .container2 {
+    display: flex;
+    justify-content: center;
+}

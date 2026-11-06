@@ -1,0 +1,85 @@
+/* Keeps your header container as it is */
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+/* Changes footer container to stack items vertically one-by-one */
+.container2 {
+    display: flex;
+    flex-direction: column; /* This makes items stack top-to-bottom */
+    align-items: center;    /* Centers the text and links nicely */
+    background-color: black;
+    padding: 20px;
+}
+
+/* Optional: Adds a little vertical space between each link */
+.container2 a {
+    margin: 5px 0;
+    color: white;           /* Makes links visible on red background */
+    text-decoration: none;
+}
+.container2 h1 {
+    color: white;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column; /* This makes items stack top-to-bottom */
+    align-items: center;    /* Centers the text and links nicely */
+    background-color: black;
+    padding: 20px;
+}
+
+/* Optional: Adds a little vertical space between each link */
+.container3 a {
+    margin: 5px 0;
+    color: white;           /* Makes links visible on red background */
+    text-decoration: none;
+}
+.container3 h1 {
+    color: white;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+}
+.container4 a {
+    margin: 6px 0;
+    color: white;
+    text-decoration: none;
+}
+.container4 h1 {
+    color: white;
+}
+
+.container5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+.container5 a {
+    margin: 6px 0;
+    color: white;
+    text-decoration: none;
+}
+.container5 h1 {
+    color: white;
+}
+
+/* Makes all 4 sections inside the footer sit side-by-side (left to right) */
+footer {
+    display: flex;
+    justify-content: space-around; /* Spreads them out evenly */
+    background-color: black;       /* Matches your sections */
+    padding: 20px;
+}
+
+
+            
